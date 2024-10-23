@@ -18,7 +18,7 @@
             nativeBuildInputs = with pkgs; [
               python311Full
 	      python311Packages.pip
-	      python311Packages.pycryptodome
+	      python311Packages.pycryptodomex
             ];
           };
     };
